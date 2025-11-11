@@ -1,0 +1,762 @@
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/custom.css?v=1.12">
+<link rel="stylesheet" type="text/css" href="/lib/datepicker/css/datepicker.css">
+<link rel="stylesheet" type="text/css" href="/lib/select2/css/select2.min.css">
+<style type="text/css">
+/*<![CDATA[*/
+body {
+	background-image: url('/images/bg.png');
+}
+		
+@media print {
+	body { padding: 0; margin: 0; background: none; }
+	a:link:after, a:visited:after { content: ""; }
+	.notforprint { display: none; }
+	.forprint { display: block; }
+	.for-print { display: block !important; }
+}
+<html><head><meta charset="utf-8"><title>logged-in (minimal)</title></head>
+<body>
+    <div class="navbar">
+        <div class="pull-right">
+            <ul class="nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">You logged in as <span class="label">luckyden987</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/office/settings">Settings</a></li>
+                        <li><a href="/office/logout">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav-list">
+        <a href="/cashier/index">Reports</a>
+    </div>
+</body></html>
+@media screen {
+	.notforprint { display: block; }
+	.forprint { display: none; }
+}
+/*]]>*/
+</style>
+<script type="text/javascript" src="/assets/f347dd98/jquery.min.js"></script>
+<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/lib/datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="/lib/select2/js/select2.min.js"></script>
+<script type="text/javascript" src="/assets/f347dd98/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="/js/shortcut.js"></script>
+<script type="text/javascript" src="/js/main.js?v=1.1.83"></script>
+<script type="text/javascript" src="/js/fp.min.js"></script>
+<script type="text/javascript" src="/js/fp-bootstrap.js"></script>
+<title>River</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/main.css?v=1.094">
+</head>
+
+<body>
+	<div class="notforprint">
+		    <style type="text/css">
+        @media (min-width: 992px) {
+            body {
+                padding-top: 80px;
+                padding-bottom: 40px;
+            }
+        }
+    </style>
+	<div class="navbar navbar-fixed-top ">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<span class="brand">«River»</span>
+				<div class="nav-collapse collapse">
+										<ul class="nav">
+						<li class="divider-vertical"></li>
+						<li><a href="/cashier/index">Reports</a></li>
+						<li class="divider-vertical"></li>
+                                                					</ul>
+										                    <div class="pull-right">
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                        You logged in as <span class="label">luckyden987</span> <b class="caret"></b>
+                                                                    </a>
+                                <ul class="dropdown-menu">
+                                                                        <li><a href="/office/settings"><i class="icon-cog"></i> Settings</a></li>
+                                                                        <li><a href="/office/logout"><i class="icon-off"></i> Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+														</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span2">
+                                                                				
+<div class="alert alert-block">
+	<p>
+		Your balance: <b style="white-space: nowrap;">18.99 usd</b>
+	</p>
+</div>
+								<div class="well well-small">
+					<ul class="nav nav-list">
+                        																									<li><a href="/cashier/create"><i class="icon-plus"></i> Accounts management</a></li>
+							<li><a href="/cashier/history"><i class="icon-calendar"></i> Accounts history</a></li>
+							<li><a href="/cashier/business"><i class="icon-search"></i> Transactions history</a></li>
+														<li><a href="/cashier/jackpotsHistory"><i class="icon-gift"></i> Jackpots history</a></li>
+							                            														<li><a href="/cashier/sellers"><i class="icon-user"></i> Cashiers management</a></li>
+							                                                                                    <li class="divider"></li>
+                            <li><a href="/cashier/promotions"><i class="icon-gift"></i> Promotions</a></li>
+                            <li><a href="/cashier/promotionsDownload"><i class="icon-download-alt"></i>Download materials</a></li>
+                                                                                    <li class="divider"></li>
+                            <li class="nav-header">Get App</li>
+                                                        <li>
+                                <a href="/cashier/androidGetClient/1">
+                                    <i class="icon-download-alt"></i>
+                                    River                                </a>
+                            </li>
+                                                                                    <li>
+                                <a href="/cashier/androidGetClient/2">
+                                    <i class="icon-download-alt"></i>
+                                    Thunder7                                    <span class="badge badge-warning">new</span>
+                                </a>
+                            </li>
+                                                                                                                                            							<li class="divider"></li>
+																														<li><a href="/office/logout"><i class="icon-off"></i> Logout</a></li>
+					</ul>
+				</div>
+                <blockquote>
+	<p class="muted"><e id="clock-block">2025/11/11 01:05:41</e> GMT-6</p>
+</blockquote>
+<script type="text/javascript">
+(function clock(container){
+	String.prototype.twoDigist = function(str){ return this.length == 1 ? ("0" + this) : this; };
+	var serverTime = new Date("Nov 11, 2025 00:41:03"), localTime = Date.now(), timeDiff = serverTime.getTime() - localTime;
+	function dateTime(){
+		var date = new Date(Date.now() + timeDiff);
+		return date.getFullYear() + "/" + (date.getMonth() + 1).toString().twoDigist() + "/" + date.getDate().toString().twoDigist() + " " +
+			   date.getHours().toString().twoDigist() + ":" + date.getMinutes().toString().twoDigist() + ":" + date.getSeconds().toString().twoDigist();
+	}
+	(function adminClock(){ $(container).html(dateTime()); setTimeout(adminClock, 1000); })();
+})("#clock-block");
+</script>			</div>
+			<div class="span10">
+				<ul class="breadcrumb">
+<li><a href="/cashier/index"><i class="icon-home"></i></a></li> <li><a href="/cashier/index">Home</a><span class="divider">/</span></li><li class="active">Accounts history</li></ul>				<div id="main-content" class="for-print">
+					
+
+
+
+
+<form class="form-horizontal" id="yw0" action="/cashier/history" method="post"><div id="date-filter" class="well">
+    	<div class="control-group">
+		<label class="control-label">
+			<label for="DateFilterForm_dateFrom">From</label>		</label>
+		<div class="controls controls-row">
+						<div class="input-append date" data-date="10-11-2020" data-date-format="dd-mm-yyyy">
+				<input class="input-large" autocomplete="off" placeholder="dd-mm-yyyy" id="DateFilterForm_dateFrom" name="DateFilterForm[dateFrom]" type="text" value="10-11-2020">				<a class="button add-on" href="#"><i class="icon-calendar"></i></a>
+			</div>
+									<input class="input-mini" autocomplete="off" placeholder="hh:mm:ss" id="DateFilterForm_timeFrom" name="DateFilterForm[timeFrom]" type="text" value="">					</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">
+			<label for="DateFilterForm_dateTill">Until</label>		</label>
+		<div class="controls controls-row">
+						<div class="input-append date" data-date="11-11-2025" data-date-format="dd-mm-yyyy">
+				<input class="input-large" autocomplete="off" placeholder="dd-mm-yyyy" id="DateFilterForm_dateTill" name="DateFilterForm[dateTill]" type="text" value="11-11-2025">				<a class="button add-on" href="#"><i class="icon-calendar"></i></a>
+			</div>
+			
+						<input class="input-mini" autocomplete="off" placeholder="hh:mm:ss" id="DateFilterForm_timeTill" name="DateFilterForm[timeTill]" type="text" value="">					</div>
+	</div>
+        					                            			<div class="control-group">
+		<label class="control-label">
+			<label for="DateFilterForm_search">Search</label>		</label>
+		<div class="controls controls-row">
+            <input class="input-large" placeholder="Account # or Username" name="DateFilterForm[search]" id="DateFilterForm_search" type="text" value="07-78-06-71-19-73">		</div>
+	</div>
+	    	<div class="controls">
+		<div class="btn-group">
+			<button class="btn btn-info" type="submit" name="yt0">Apply Filter</button>            			<button class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li>
+					<a href="/cashier/history?filter=today">for today</a>				</li>
+				<li>
+					<a href="/cashier/history?filter=yesterday">for yesterday</a>				</li>
+				<li>
+					<a href="/cashier/history?filter=week">this week</a>				</li>
+				<li>
+					<a href="/cashier/history?filter=month">this month</a>				</li>
+			</ul>
+            		</div>
+		<a class="btn" href="/cashier/history">Reset</a>                <button type="button" id="print-button" onclick="printContent()" class="btn"><i class="icon icon-print"></i></button>
+        	</div>
+</div>
+<input type="hidden" id="visitorId" name="visitorId" value="ef6eb9af836080a59e46390268474077"></form><script>
+    $('.date').datepicker();
+    $('select.data-select-login').select2({
+        ajax: {
+            url: '/office/searchLogin?roles%5B0%5D=agent&roles%5B1%5D=cashier',
+            dataType: 'json',
+            delay: 250,
+            cache: true,
+            data: function (params) {
+                return { login: params.term, currency: $('#DateFilterForm_currencyId').val() };
+            },
+            processResults: function (data) {
+                return {
+                    results: $.map(data, function (item) {
+                        return { id: item.id, text: item.text }
+                    })
+                };
+            }
+        },
+        maximumSelectionLength: 0,
+        minimumInputLength: 2
+    });
+    $(document).ready(function(){
+        if($('.receipt').length){
+            $('#print-button').hide();
+        }
+    });
+</script>
+
+<div class="table-wrapper">
+<table class="table table-hover table-striped">
+    <thead>
+    <tr>
+                <th width="150">Platform</th>
+                <th width="125">Account #</th>
+        <th>Username/Notes</th>
+        <th style="text-align: right;" width="120">Purchases</th>
+                                <th style="text-align: right;" width="120">Redeems</th>
+        <th style="text-align: right;" width="120">Profit</th>
+        <th style="text-align: right;" width="100">PayOut %</th>
+    </tr>
+    </thead>
+        <tbody><tr>
+                <td width="150">n/a</td>
+                <td><span class="label label-inverse">07-78-06-71-19-73</span></td>
+        <td>markr43rs</td>
+        <td style="text-align: right;">78.00</td>
+                                <td style="text-align: right;">0.00</td>
+        <td style="text-align: right;">78.00</td>
+        <td style="text-align: right;">0.00%</td>
+    </tr>
+    </tbody></table>
+</div>
+<hr>
+
+<div class="table-wrapper">
+<table class="table table-striped table-hover">
+	<tbody><tr>
+                <th width="150">Platform</th>
+                <th width="125">Account #</th>
+		<th>Username/Notes</th>
+		<th width="110" style="text-align: center;">Amount</th>
+		<th>Description</th>
+				<th style="text-align: right;">Balance change</th>
+		<th width="145">Date</th>
+        <th width="100">ID</th>
+        <th width="40">&nbsp;</th>
+	</tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    1.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                12.08.2023 16:54:42            </td>
+            <td>
+                <span class="muted">194776136</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    1.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                11.08.2023 03:06:40            </td>
+            <td>
+                <span class="muted">194522302</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    2.20                </span>
+            </td>
+            <td class="text-success">
+                cashback wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                11.08.2023 02:58:41            </td>
+            <td>
+                <span class="muted">194521681</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    22.00                </span>
+            </td>
+            <td class="text-success">
+                Deposit            </td>
+                        <td class="text-info" style="text-align: right;">
+                0.00 → 22.00            </td>
+            <td class="muted">
+                11.08.2023 02:37:50            </td>
+            <td>
+                <span class="muted">194519914</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    2.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                31.07.2023 15:39:05            </td>
+            <td>
+                <span class="muted">192755965</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    1.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                30.07.2023 13:26:24            </td>
+            <td>
+                <span class="muted">192587532</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    1.20                </span>
+            </td>
+            <td class="text-success">
+                cashback wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                28.07.2023 18:12:36            </td>
+            <td>
+                <span class="muted">192291230</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    1.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                28.07.2023 17:49:05            </td>
+            <td>
+                <span class="muted">192287139</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    24.00                </span>
+            </td>
+            <td class="text-success">
+                Deposit            </td>
+                        <td class="text-info" style="text-align: right;">
+                0.00 → 24.00            </td>
+            <td class="muted">
+                28.07.2023 17:45:38            </td>
+            <td>
+                <span class="muted">192286524</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    0.40                </span>
+            </td>
+            <td class="text-success">
+                cashback wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                27.07.2023 17:55:56            </td>
+            <td>
+                <span class="muted">192118170</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    4.00                </span>
+            </td>
+            <td class="text-success">
+                Deposit            </td>
+                        <td class="text-info" style="text-align: right;">
+                0.00 → 4.00            </td>
+            <td class="muted">
+                27.07.2023 17:29:28            </td>
+            <td>
+                <span class="muted">192114023</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    2.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                24.07.2023 18:28:28            </td>
+            <td>
+                <span class="muted">191654252</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    2.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                23.07.2023 18:21:48            </td>
+            <td>
+                <span class="muted">191506912</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    2.00                </span>
+            </td>
+            <td class="text-success">
+                daily_wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                21.07.2023 19:26:22            </td>
+            <td>
+                <span class="muted">191194666</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    1.10                </span>
+            </td>
+            <td class="text-success">
+                cashback wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                21.07.2023 19:20:57            </td>
+            <td>
+                <span class="muted">191193613</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    22.00                </span>
+            </td>
+            <td class="text-success">
+                Deposit            </td>
+                        <td class="text-info" style="text-align: right;">
+                0.60 → 22.60            </td>
+            <td class="muted">
+                21.07.2023 18:55:22            </td>
+            <td>
+                <span class="muted">191189058</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    0.60                </span>
+            </td>
+            <td class="text-success">
+                cashback wheel            </td>
+                        <td class="text-info" style="text-align: right;">
+                            </td>
+            <td class="muted">
+                20.07.2023 21:43:51            </td>
+            <td>
+                <span class="muted">191046671</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-success" style="text-align: center; width: 90%;">
+                    6.00                </span>
+            </td>
+            <td class="text-success">
+                Deposit            </td>
+                        <td class="text-info" style="text-align: right;">
+                0.00 → 6.00            </td>
+            <td class="muted">
+                20.07.2023 20:40:56            </td>
+            <td>
+                <span class="muted">191035265</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	                <tr>
+                        <td width="150">
+                River            </td>
+                        <td>
+                <span class="label label-inverse">07-78-06-71-19-73</span>
+            </td>
+            <td>
+                markr43rs            </td>
+            <td style="text-align: right;">
+                <span class="badge badge-important" style="text-align: center; width: 90%;">
+                    -0.00                </span>
+            </td>
+            <td class="text-error">
+                Create Account            </td>
+                        <td class="text-info" style="text-align: right;">
+                0.00 → 0.00            </td>
+            <td class="muted">
+                20.07.2023 20:40:12            </td>
+            <td>
+                <span class="muted">191035132</span>
+            </td>
+            <td class="print">
+                            </td>
+        </tr>
+	</tbody></table>
+<div class="pagination">
+	</div>
+</div>
+                    				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<hr>
+		<footer class="pull-right">
+			<small class="muted">v7.18.8. © River 2025</small>
+		</footer>
+	</div>
+	</div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">November 2020</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">25</td><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td></tr><tr><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td></tr><tr><td class="day">8</td><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td></tr><tr><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td></tr><tr><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td></tr><tr><td class="day">29</td><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month active">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year active">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">November 2025</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td></tr><tr><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td></tr><tr><td class="day">9</td><td class="day">10</td><td class="day active">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td></tr><tr><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td></tr><tr><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td></tr><tr><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2025</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month active">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year active">2025</span><span class="year">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div>
+	<div id="forprint" class="forprint"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery("#DateFilterForm_dateFrom").mask("99-99-9999");
+jQuery("#DateFilterForm_timeFrom").mask("99:99?:99");
+jQuery("#DateFilterForm_dateTill").mask("99-99-9999");
+jQuery("#DateFilterForm_timeTill").mask("99:99?:99");
+});
+jQuery(window).on('load',function() {
+$("body").tooltip({selector: "[rel=tooltip]", placement: "top"});
+});
+/*]]>*/
+</script>
+
+
+
+</body></html>

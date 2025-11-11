@@ -1,3 +1,5 @@
 selenium>=4.8.0
 webdriver-manager>=4.0.0
+# HTML parsing for offline detection tests
+beautifulsoup4>=4.12.2
 # If using Chrome/Chromium, install matching chromedriver separately or use --auto-driver to auto-install via webdriver-manager.
