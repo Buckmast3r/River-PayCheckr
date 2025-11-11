@@ -1,0 +1,12 @@
+# Ignore sensitive credential files and run artifacts
+/river-pay(1).txt
+/Proxy _lists.txt
+
+# Outputs and captured artifacts
+/login_results*.csv
+/snapshots_html/
+/screenshots/
+
+# Temporary files
+/tmp/
+*.log
